@@ -1,0 +1,31 @@
+body{
+
+    margin:0;
+    padding:0;
+    font-family: 'Alkatra', cursive;
+    background-color: rgb(104, 161, 211);
+    padding: 20px;
+
+}
+    h1{
+        color:black;
+        padding: 2rem;
+
+    }
+
+    p{
+        color: black;
+
+    }
+
+    .img{
+        width: 50%;
+        height: auto;
+        max-width: 50%;
+    } 
+
+    @media (max-width:768px) and (min-width:600px){
+        h1{
+            color:blueviolet;
+        }
+    }
